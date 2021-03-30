@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Json App</string>
+    <string name="tv_titulo">Título</string>
+    <string name="tv_autor">Autor</string>
+    <string name="tv_titulo_json">Título Json</string>
+    <string name="tv_autor_json">Autor Json</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">todo</string>
+    <string name="tv_nombre_autor">Autor</string>
+    <string name="titulo_json">Título</string>
+    <string name="title_activity__info__detalle">Activity_Info_Detalle</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tv_titulo_info_usuario">Info User</string>
+    <string name="tv_titulo_nombre_completo">Nombre</string>
+    <string name="tv_nombre_completo">Nombre Completo</string>
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="tv_email">Email</string>
+    <string name="tv_titulo_emailemail">Email</string>
+    <string name="tv_nickname">Nickname</string>
+    <string name="tv_telefono">Teléfono</string>
+    <string name="tv_titulo_telefono">Teléfono</string>
+    <string name="tv_titulo_company">Compañia</string>
+    <string name="tv_company">Compañia</string>
+    <string name="modificar_post">Modificar Post</string>
+    <string name="informacion_autor">Información Autor</string>
+    <string name="eliminar_post">Eliminar Post</string>
+    <string name="anhadir_post">Añadir Post</string>
+    <string name="tv_title_anhadir_post">Añadir Post</string>
+    <string name="hint_cuerpo_post">Cuerpo Post</string>
+    <string name="tv_tituloPost">Título</string>
+    <string name="tv_nombreAutor">Nombre</string>
+    <string name="tv_cuerpoPost">Cuerpo</string>
+    <string name="hint_nombre_autor_post">Nombre Autor Post</string>
+    <string name="hint_titulo_post">Título Post</string>
+    <string name="info_post">Info Post</string>
+    <string name="tv_titulo_post">Título Post</string>
+    <string name="tv_nombre_autorPOST">Nombre Autor</string>
+    <string name="TV_cuerpo_post">Cuerpo Post</string>
+    <string name="json_app_toolbar">Json App</string>
+    <string name="buscar">Buscar</string>
+    <string name="json_operations_app">Json Operations App</string>
+    <string name="bt_cancelar">Cancelar</string>
+    <string name="reset">Reset</string>
+    <string name="mensaje">Está seguro de querer resetear los datos?</string>
+</resources>

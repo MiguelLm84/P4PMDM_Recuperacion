@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/accionVerInfoAutor"
+        android:title="@string/informacion_autor" />
+    <item
+        android:id="@+id/accionModificarPost"
+        android:title="@string/modificar_post" />
+    <item
+        android:id="@+id/accionEliminarPost"
+        android:title="@string/eliminar_post" />
+</menu>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_negro_appjson"
+    tools:context=".ui.Activity_Add_Post">
+
+    <TextView
+        android:id="@+id/tv_title_anhadirPost"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/russo_one"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:text="@string/tv_title_anhadir_post"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_titulo_nombreAutor"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/cantora_one"
+        android:gravity="start|top"
+        android:text="@string/tv_nombreAutor"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_anhadirPost" />
+
+    <TextView
+        android:id="@+id/tv_titulo_anhadirPost"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/cantora_one"
+        android:gravity="start|top"
+        android:text="@string/tv_tituloPost"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titulo_nombreAutor" />
+
+    <EditText
+        android:id="@+id/ed_tituloPost"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/cantora_one"
+        android:gravity="start|top"
+        android:hint="@string/hint_titulo_post"
+        android:inputType="text"
+        android:textColor="#D3D1D1"
+        android:textColorHint="#D3D1D1"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_titulo_anhadirPost"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_titulo_anhadirPost"
+        app:layout_constraintTop_toTopOf="@+id/tv_titulo_anhadirPost" />
+
+    <TextView
+        android:id="@+id/tv_cuerpoPost"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/cantora_one"
+        android:gravity="start|top"
+        android:text="@string/tv_cuerpoPost"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titulo_anhadirPost" />
+
+    <EditText
+        android:id="@+id/ed_cuerpoPost"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/cantora_one"
+        android:gravity="start|top"
+        android:hint="@string/hint_cuerpo_post"
+        android:inputType="textMultiLine"
+        android:textColor="#D3D1D1"
+        android:textColorHint="#D3D1D1"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_cuerpoPost"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_cuerpoPost"
+        app:layout_constraintTop_toTopOf="@+id/tv_cuerpoPost" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:indeterminate="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_cuerpoPost" />
+
+    <Button
+        android:id="@+id/btn_aceptarPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/shape_boton_redondeado"
+        android:fontFamily="@font/cantora_one"
+        android:onClick="buttonOkClick"
+        android:text="@string/btn_aceptar"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_cuerpoPost" />
+
+    <Button
+        android:id="@+id/btn_cancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/shape_boton_redondeado"
+        android:backgroundTint="@color/teal_700"
+        android:fontFamily="@font/cantora_one"
+        android:onClick="buttonCancelarClick"
+        android:text="@string/bt_cancelar"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_aceptarPost"
+        app:layout_constraintTop_toBottomOf="@+id/ed_cuerpoPost" />
+
+    <Spinner
+        android:id="@+id/spinnerAutor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_titulo_nombreAutor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_titulo_nombreAutor"
+        app:layout_constraintTop_toTopOf="@+id/tv_titulo_nombreAutor" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
